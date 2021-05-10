@@ -37,11 +37,11 @@ function App() {
         <p className="sentiment-text" style={{marginTop: "20px", color: "white"}}>Enter Arithmetic Expression</p>
         <ul>
           <p>Instructions!</p>
-          <li> Takes mathematical expression in infix notation as input.</li>
-          <li> Supports positive, negative, decimal numbers and fractions. </li>
-          <li> Supports +  -  *  / operations.</li>
-          <li> Supports expressions with multiple levels of nested parentheses.</li>
-          <li> Example: (4-2) / 3.5 + 1/(2.5) / 3 </li>
+          <p>1. Takes mathematical expression in infix notation as input.</p>
+          <p>2. Supports positive, negative, decimal numbers and fractions. </p>
+          <p>3. Supports +  -  *  / operations.</p>
+          <p>4. Supports expressions with multiple levels of nested parentheses.</p>
+          <p>5. Example: (4-2) / 3.5 + 1/(2.5) / 3 </p>
         </ul>
     </div>
   );
